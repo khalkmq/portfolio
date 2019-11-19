@@ -7,15 +7,14 @@ body {
 
   /* Font Color */
   color: #555;
+  line-height: 1.5;
 
   /* Centering */
   margin: 0 auto;
   max-width: 50em;
 
-  line-height: 1.5;
+  /* Spacing */
   padding: 4em 1em;
-
-
 }
 
 h2 {
@@ -96,8 +95,25 @@ header a:hover {
   padding: 10px;
 }
 
-
-
 .welcomeBlock {
   padding-top: 20em;
+}
+
+.skill {
+    border: 2px solid #50a9d1;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.4em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
